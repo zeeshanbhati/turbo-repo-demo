@@ -30,7 +30,7 @@
     "next-demo#build":{
       "dependsOn":[
         "^build",
-        "API_URL_THASH"
+        "API_URL"
       ]
     },
     "lint":{
