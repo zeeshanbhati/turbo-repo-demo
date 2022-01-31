@@ -2,8 +2,8 @@ import { Button } from 'ui'
 
 export default function Home() {
   const getPikachu = () => {
-    fetch(`${process.env.API_URL_THASH}`)
-    console.log('Testing for vercel preview')
+    fetch(`${process.env.API_URL}`)
+    console.log('Testing for vercel preview deployment')
   }
 
   return (

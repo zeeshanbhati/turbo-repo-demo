@@ -4,6 +4,12 @@
       "dependsOn": ["^build"],
       "outputs": ["dist/**", ".next/**"]
     },
+    "next-demo#build":{
+      "dependsOn":[
+        "^build",
+        "$API_URL"
+      ]
+    },
     "lint": {
       "outputs": []
     },
